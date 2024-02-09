@@ -1,0 +1,89 @@
+body{
+    background-color: #1F2937;
+}
+.header{
+    height: 800px;
+}
+.header_background img{
+    width: 100%;
+    height: 800px;
+    position: absolute;
+}
+.header_content{
+background-color: #000000;
+}
+.red_button a{
+    padding: 10px 15px;
+    background-color: #80080A;
+    color: #fff;
+    transition: 1s;
+    font-weight: 600;
+}
+.red_button :hover{
+    filter:brightness(1.25);
+    color: #fff;
+
+}
+.aboout_game{
+    margin-top: 150px;
+}
+.aboout_game h2{
+    font-size: 70px;
+    font-weight: 700;
+    color: #fff;
+}
+.aboout_game p{
+    color: #fff;
+    font-size: 18px;
+}
+.game_logo{
+    display: block;
+    animation: logo 5s infinite ease-out;
+    position: relative;
+    right: 100px;
+}
+@keyframes logo {
+    0%{top: 0px;}
+    50%{top: 30px; filter: brightness(0.6);}
+    100%{top: 0px;}
+}
+.platforms h3{
+    color: #fff;
+    font-size: 40px;
+}
+.svg_scale{
+    transition: 1s ease;
+}
+.svg_scale:hover{
+    transform: scale(1.5);
+}
+.game_modes h2{
+    color: #fff;
+    font-size: 30px;
+    z-index: 1;
+    display: block;
+}
+.test img{
+    position: absolute;
+    left: 0;
+    width: 490px;
+    height: 470px;
+}
+.game_modes__section{
+    filter: brightness(0.4);
+    transition: 0.5s ease-out;
+    cursor: pointer;
+}
+.game_modes__section:hover{
+    filter: brightness(1);
+}
+.pin{
+    position: relative;
+    left: 200px;
+    animation: pin 5s ease-in infinite;
+}
+@keyframes pin {
+    0%{top:-80px}
+    50%{top: -30px;}
+    100%{top:-80px}
+}
