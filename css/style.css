@@ -20,7 +20,7 @@ background-color: #000000;
     font-weight: 600;
 }
 .red_button :hover{
-    filter:brightness(1.25);
+    filter:brightness(1.5 );
     color: #fff;
 
 }
